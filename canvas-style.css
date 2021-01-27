@@ -6,10 +6,11 @@
 }
 
 body {
-    background-color: #f1bbd5;
+    background-color: #f1bbd5; /* main background color */
  
 }
 
+ /* for outer circle div */
 .outer-circle {
     background-color: #3b0944;
     border-radius: 50%;
@@ -20,22 +21,24 @@ body {
     margin: 0 auto;
 
 }
-
+/* for inner circle div */
 .inner-circle {
     background-color: #5f1854;
     border-radius: 50%;
     width: 350px;
     height: 350px;
+    /* code below this line for centering inner-circle div */
     margin: -175px 0 0 -175px;
     position: absolute;
     top: 50%;
     left: 50%;
     box-shadow: 0 0 0 1px #fcfcfc;
 }
-
+/* for center div */
 .center {
     background-color: #a12559;
     border-radius: 50%;
+    /* code below this line for centering inner-circle div */
     width: 175px;
     height: 175px;
     margin: -87.5px 0 0 -87.5px;
