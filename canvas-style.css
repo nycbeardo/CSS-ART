@@ -1,36 +1,46 @@
-: :root {
-    --outer-circle: #91684a ;
+:root {
+    --outer-circle: #91684a;
     --inner-circle: #eaac7f;
-    --center: #ffdf91 ;
+    --center: #ffdf91;
 
 }
 
-.inner-circle {
-    background-color: #eaac7f;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    margin: -150px 0 0 -150px;
-    position: absolute;
-    top: 50%;
-    left: 50%
+body {
+    background-color: #f1bbd5;
+ 
 }
 
 .outer-circle {
-    background-color: #91684a;
+    background-color: #3b0944;
     border-radius: 50%;
     width: 500px;
     height: 500px;
     position: relative;
+    box-shadow: 0 0 0 1px #fcfcfc;
+    margin: 0 auto;
+
+}
+
+.inner-circle {
+    background-color: #5f1854;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: -175px 0 0 -175px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 0 1px #fcfcfc;
 }
 
 .center {
-    background-color: #ffdf91;
+    background-color: #a12559;
     border-radius: 50%;
     width: 175px;
     height: 175px;
     margin: -87.5px 0 0 -87.5px;
     position: absolute;
     top: 50%;
-    left: 50%
+    left: 50%;
+    box-shadow: 0 0 0 1px #fcfcfc;
 }
