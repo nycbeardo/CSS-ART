@@ -46,24 +46,25 @@ body {
 
 
 
-/* for inner circle div */
+/* for inner circle div 
 .inner-circle {
     background-color: #5f1854;
     border-radius: 50%;
     width: 350px;
     height: 350px;
-    /* code below this line for centering inner-circle div */
+    /* code below this line for centering inner-circle div 
     margin: -175px 0 0 -175px;
     position: absolute;
     top: 50%;
     left: 50%;
     box-shadow: 0 0 0 1px #fcfcfc;
-}
-/* for center div */
+} */
+
+/* for center div 
 .center {
     background-color: #a12559;
     border-radius: 50%;
-    /* code below this line for centering inner-circle div */
+    /* code below this line for centering inner-circle div 
     width: 175px;
     height: 175px;
     margin: -87.5px 0 0 -87.5px;
@@ -71,4 +72,4 @@ body {
     top: 50%;
     left: 50%;
     box-shadow: 0 0 0 1px #fcfcfc;
-} 
+} */
