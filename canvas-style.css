@@ -12,13 +12,13 @@ body {
 
  /* for outer circle div */
 .outer-circle {
-    background-color: #3b0944;
+    background-color: #2e38bd;
     border-radius: 50%;
     width: 500px;
     height: 500px;
     position: absolute;
     margin: 0 auto;
-    background: radial-gradient(circle at 100px 100px, #3b0944, #000)
+    background: radial-gradient(circle at 100px 100px, #2e38bd, #000)
 
 }
 
@@ -46,13 +46,13 @@ body {
 
 
 
-/* for inner circle div 
+/* for inner circle div */
 .inner-circle {
-    background-color: #5f1854;
+    background-color: #2e38bd;
     border-radius: 50%;
     width: 350px;
     height: 350px;
-    /* code below this line for centering inner-circle div 
+    /* code below this line for centering inner-circle div */
     margin: -175px 0 0 -175px;
     position: absolute;
     top: 50%;
@@ -60,11 +60,11 @@ body {
     box-shadow: 0 0 0 1px #fcfcfc;
 } */
 
-/* for center div 
+/* for center div  */
 .center {
-    background-color: #a12559;
+    background-color: #2e38bd;
     border-radius: 50%;
-    /* code below this line for centering inner-circle div 
+    /* code below this line for centering inner-circle div */
     width: 175px;
     height: 175px;
     margin: -87.5px 0 0 -87.5px;
