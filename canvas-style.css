@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f1bbd5; /* main background color */
+    background-color: #ffffff; /* main background color */
  
 }
 
@@ -58,7 +58,7 @@ body {
     top: 50%;
     left: 50%;
     box-shadow: 0 0 0 1px #fcfcfc;
-} */
+} 
 
 /* for center div  */
 .center {
@@ -72,4 +72,4 @@ body {
     top: 50%;
     left: 50%;
     box-shadow: 0 0 0 1px #fcfcfc;
-} */
+} 
