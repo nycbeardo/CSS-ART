@@ -6,24 +6,49 @@
 }
 
 body {
-    background-color: #f1bbd5; /* main background color */
+    background-color: #89c9b8; /* main background color */
  
 }
 
  /* for outer circle div */
 .outer-circle {
-    background-color: #3b0944;
+    background-color: #2e38bd;
     border-radius: 50%;
     width: 500px;
     height: 500px;
-    position: relative;
-    box-shadow: 0 0 0 1px #fcfcfc;
+    position: absolute;
     margin: 0 auto;
+    background: radial-gradient(circle at 100px 100px, #2e38bd, #000)
 
 }
+
+/* for shadow and 3d effect */
+
+.stage {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    margin: 100px;
+    perspective: 1200px;
+    perspective-origin: 50% 50%;
+    position: relative;
+}
+
+.outer-circle .shadow {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radical-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+    transform: rotateX(90deg) translateZ(-150px);
+    z-index: -1;
+}
+
+
+
 /* for inner circle div */
 .inner-circle {
-    background-color: #5f1854;
+    background-color: #2e38bd;
     border-radius: 50%;
     width: 350px;
     height: 350px;
@@ -33,10 +58,11 @@ body {
     top: 50%;
     left: 50%;
     box-shadow: 0 0 0 1px #fcfcfc;
-}
-/* for center div */
+} 
+
+/* for center div  */
 .center {
-    background-color: #a12559;
+    background-color: #2e38bd;
     border-radius: 50%;
     /* code below this line for centering inner-circle div */
     width: 175px;
@@ -46,4 +72,4 @@ body {
     top: 50%;
     left: 50%;
     box-shadow: 0 0 0 1px #fcfcfc;
-}
+} 
